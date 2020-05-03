@@ -1,0 +1,24 @@
+//<BUTTONS>====================================================================================================
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 0px;
+	color: #ffffff;
+	font-family: Amiri;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 222px;
+	height: 57px;
+	border: 2px solid #404429;
+
+	@include anim(0.3s, 0s);
+	&:hover {
+		border: 2px solid #323522;
+	}
+	&.fw {
+		width: 100%;
+	}
+}
+//</BUTTONS>====================================================================================================
